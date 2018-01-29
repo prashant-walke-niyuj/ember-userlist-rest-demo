@@ -1,0 +1,1 @@
+/home/prashant/PROJECT/demo/tmp/funnel-input_base_path-rb2Fg50r.tmp/components/simple-pagination.js

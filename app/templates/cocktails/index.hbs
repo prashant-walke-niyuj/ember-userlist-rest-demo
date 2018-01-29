@@ -1,0 +1,11 @@
+<h2>Ember Data JSONAPIAdapter - Index route</h2>
+<table>
+  {{#each model as |cocktail|}}
+      <tr>
+          <td>{{cocktail.id}}</td>
+          <td>{{cocktail.name}}</td>
+          <td>{{cocktail.description}}</td>
+          <td>{{cocktail.created}}</td>
+      </tr>
+  {{/each}}
+</table>

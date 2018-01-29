@@ -1,0 +1,10 @@
+{{outlet}}<h2>Ember Data JSONAPIAdapter - Index route</h2>
+<table>
+  {{#each model as |user|}}
+      <tr>
+          <td>{{user.id}}</td>
+          <td>{{user.name}}</td>
+          <td>{{user.description}}</td>
+      </tr>
+  {{/each}}
+</table>

@@ -1,0 +1,1 @@
+/home/prashant/PROJECT/demo/tmp/funnel-input_base_path-aIT5yrkD.tmp/adapters/rest.js

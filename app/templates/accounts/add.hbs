@@ -1,0 +1,51 @@
+<div class="row row col-md-12">
+        <form class="" role="form">
+       <div class="col-md-offset-1 col-md-5">
+        <div class="form-group">
+            <label for="username">Username</label>
+            {{input value=model.username}}
+        </div>
+         <div class="form-group">
+            <label for="exampleInputEmail1">Email</label>
+            {{input value=model.email}}
+        </div>
+         <div class="form-group">
+            <label for="first_name">First Name</label>
+            {{input value=model.email}}
+        </div>
+              <div class="form-group">
+            <label for="last_name">Last Name</label>
+            <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Enter Last Name">
+        </div>
+         <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="">
+        </div>
+         <div class="form-group">
+            <label for="c_password">Confirm Password</label>
+            <input type="c_password" class="form-control" id="c_password" placeholder="">
+        </div>       
+        <div class="checkbox">
+            <label>
+            <input type="checkbox"> Enabled
+            </label>
+        </div>
+        </div>
+        <div class="col-md-offset-1 col-md-5">
+        <div class="form-group">
+            <label for="company_name">Company Name</label>
+            <input type="text" class="form-control" id="company_name" name="company_name" placeholder="Enter Company Name">
+        </div>
+         <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" name="title" placeholder="Enter Title">
+        </div>
+        </div>        
+        <div class="col-md-offset-1 col-md-5">
+            <button type="submit" class="btn btn-success btn-lg"><span class="glyphicon glyphicon-ok"></span> Submit</button>
+            <button id="close_create_user" type="button" class="btn btn-deafualt btn-lg">
+            Close
+            </button>
+        </div>        
+        </form> 
+    </div>

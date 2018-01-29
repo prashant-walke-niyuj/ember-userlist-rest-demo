@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"F8jFkQQL","block":"{\"symbols\":[\"&default\"],\"statements\":[[11,1]],\"hasEval\":false}","meta":{"moduleName":"demo/templates/components/save-user.hbs"}});
