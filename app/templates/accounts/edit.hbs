@@ -42,9 +42,9 @@
              {{input value=model.last_name class="form-control" id="last_name" placeholder="Enter last name"}}           
         </div>   
             <button type="submit" class="btn btn-success btn-lg" {{action 'saveAccount' model}}><span class="glyphicon glyphicon-ok"></span> Save</button>
-            <a href="/accounts"><button id="close_create_user" type="button" class="btn btn-deafualt btn-lg">
+            <button id="close_create_user" {{action 'closeAccount'}} type="button" class="btn btn-deafualt btn-lg">
             Close
-            </button></a>
+            </button>
         </div>        
         </form> 
     </div>

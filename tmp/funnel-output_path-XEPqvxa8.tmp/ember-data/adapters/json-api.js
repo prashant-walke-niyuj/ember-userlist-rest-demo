@@ -1,1 +1,0 @@
-/home/prashant/PROJECT/demo/tmp/funnel-input_base_path-DdHILfUH.tmp/adapters/json-api.js

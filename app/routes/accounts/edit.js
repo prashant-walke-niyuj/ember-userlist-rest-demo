@@ -1,15 +1,22 @@
 import Ember from 'ember';
-export default Ember.Route.extend({
+import Route from '@ember/routing/route';
+export default Route.extend({
   model(params) {
     return this.get('store').findRecord('account', params.id);
   },
   actions: {
     saveAccount(account) {
+      this.set('showValidations', true);
       let confirmation = confirm('Are you sure?');
       if (confirmation) {
         account.save();
+        alert('Record has been stored succesfully');
       }
-      alert('Record has been saved succesfully');
-    }    
+      
+    },
+    closeAccount (){
+      this.transitionTo('accounts');
+
+    }
   }
 });
